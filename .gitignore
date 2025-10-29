@@ -1,0 +1,4 @@
+torch/*
+Models/codellama-7b-instruct.Q5_K_M.gguf
+codellama-7b-instruct.Q5_K_M.gguf
+__pycache__/*

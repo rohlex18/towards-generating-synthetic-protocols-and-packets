@@ -57,7 +57,7 @@ def build_real_x_y(STATIC_KEYS, PARENTS):
 
 from Models.ImageGenModel import CNNPacketImageGenerator
 import torch
-from scapy_tools import pkt2field_types
+from PY.scapy_tools import pkt2field_types
 
 
 def build_fake_x_y(p_count_dict, STATIC_KEYS, PARENTS, generator='Scapy', seq_len = 256, FIELD_TYPE_VOCAB=[], max_len=10):

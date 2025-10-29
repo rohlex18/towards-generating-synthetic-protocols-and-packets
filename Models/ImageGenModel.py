@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from PacketDataset import PacketDataset
+from PY.PacketDataset import PacketDataset
 from torch.nn.utils.rnn import pad_sequence
 
 class IndexedPacketDataset(PacketDataset):
